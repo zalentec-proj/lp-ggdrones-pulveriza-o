@@ -29,10 +29,10 @@ export const steps = [
 ] as const;
 
 export const aircraft = [
-  ["FALCÃO I", "DJI Air 2S", "Mapeamento e planejamento", "Coleta imagens da área, identifica limites e apoia o planejamento seguro da operação.", "MAPEAMENTO AÉREO"],
-  ["ÁGUIA I", "DJI Agras T10", "Áreas pequenas e complexas", "Agilidade para bordas de mata, terrenos com obstáculos e locais de acesso mais difícil.", "ATÉ 6,07 HA/H"],
-  ["ÁGUIA II", "DJI Agras T20P", "Operações versáteis", "Equilíbrio entre capacidade e agilidade para aplicações em diferentes tipos de área.", "ATÉ 12 HA/H"],
-  ["HARPIA", "DJI Agras T40", "Alta produtividade", "Maior capacidade operacional para pulverização de áreas extensas com eficiência.", "ATÉ 21,33 HA/H"],
+  ["FALCÃO I", "DJI Air 2S", "Mapeamento e planejamento", "Coleta imagens da área, identifica limites e apoia o planejamento seguro da operação.", "MAPEAMENTO AÉREO", "/media/fleet/air-2s.webp"],
+  ["ÁGUIA I", "DJI Agras T10", "Áreas pequenas e complexas", "Agilidade para bordas de mata, terrenos com obstáculos e locais de acesso mais difícil.", "ATÉ 6,07 HA/H", "/media/fleet/agras-t10-card.png"],
+  ["ÁGUIA II", "DJI Agras T20P", "Operações versáteis", "Equilíbrio entre capacidade e agilidade para aplicações em diferentes tipos de área.", "ATÉ 12 HA/H", "/media/fleet/agras-t20p.webp"],
+  ["HARPIA", "DJI Agras T40", "Alta produtividade", "Maior capacidade operacional para pulverização de áreas extensas com eficiência.", "ATÉ 21,33 HA/H", "/media/fleet/agras-t40.webp"],
 ] as const;
 
 export const faq = [
@@ -45,4 +45,12 @@ export const faq = [
   ["Como é cobrado o serviço de dispersão de sólidos com drone?", "O valor é calculado por área e pode variar conforme a taxa de dispersão em quilos, pois o volume aplicado afeta a quantidade de viagens, baterias e combustível."],
 ] as const;
 
-export const regulators = ["MAPA", "IBAMA", "ADAPAR", "CREA-PR", "ANAC", "ANATEL", "DECEA"] as const;
+export const regulators = [
+  ["MAPA", "/media/regulators/mapa.png"],
+  ["IBAMA", "/media/regulators/ibama.svg"],
+  ["ADAPAR", "/media/regulators/adapar.png"],
+  ["CREA-PR", "/media/regulators/crea-pr.png"],
+  ["ANAC", "/media/regulators/anac.png"],
+  ["ANATEL", "/media/regulators/anatel.svg"],
+  ["DECEA", "/media/regulators/decea.png"],
+] as const;
