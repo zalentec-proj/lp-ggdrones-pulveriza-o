@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://lp-gg-drones-pulverizacao.vercel.app"),
+  metadataBase: new URL("https://www.ggdronespulverizacao.com.br"),
   title: "Pulverização com Drones em Cascavel | GG Drones",
   description: "Pulverização agrícola com drones em Cascavel e região. Aplicação precisa, dispersão de sólidos, mapeamento e relatório operacional. Solicite uma avaliação.",
   applicationName: "GG Drones Pulverização",
+  alternates: { canonical: "/" },
   icons: {
     icon: "/icon.svg",
     shortcut: "/icon.svg",
@@ -31,7 +33,7 @@ export const metadata: Metadata = {
     description: "Tecnologia, precisão e responsabilidade para operações agrícolas com drones.",
     images: ["/media/social/og-gg-drones.png"],
   },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#031923" };
@@ -39,7 +41,24 @@ export const viewport: Viewport = { width: "device-width", initialScale: 1, them
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KMKQTWLP"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        {children}
+        <Script id="google-tag-manager" strategy="beforeInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KMKQTWLP');`}
+        </Script>
+      </body>
     </html>
   );
 }
