@@ -4,9 +4,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.ggdronespulverizacao.com.br"),
-  title: "Pulverização com Drones em Cascavel | GG Drones",
-  description: "Pulverização agrícola com drones em Cascavel e região. Aplicação precisa, dispersão de sólidos, mapeamento e relatório operacional. Solicite uma avaliação.",
-  applicationName: "GG Drones Pulverização",
+  title: "Pulverização Agrícola com Drones no Paraná | GG Pulverização",
+  description: "Pulverização agrícola, dispersão de sólidos e mapeamento com drones no Paraná. Mais precisão, agilidade e segurança para lavouras e pastagens.",
+  applicationName: "GG Pulverização",
   alternates: { canonical: "/" },
   icons: {
     icon: "/icon.svg",
@@ -14,24 +14,24 @@ export const metadata: Metadata = {
     apple: "/icon.svg",
   },
   openGraph: {
-    title: "Pulverização com Drones em Cascavel | GG Drones",
-    description: "Tecnologia, precisão e responsabilidade para operações agrícolas com drones.",
+    title: "Pulverização Agrícola com Drones no Paraná | GG Pulverização",
+    description: "Pulverização agrícola, dispersão de sólidos e mapeamento com drones no Paraná. Mais precisão, agilidade e segurança para lavouras e pastagens.",
     locale: "pt_BR",
     type: "website",
     images: [
       {
-        url: "/media/social/og-gg-drones.png",
+        url: "/media/social/og-gg-pulverizacao-v2.png",
         width: 1200,
         height: 630,
-        alt: "Pulverização agrícola com drones — GG Drones Pulverização",
+        alt: "Drone agrícola em operação — GG Pulverização",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pulverização com Drones em Cascavel | GG Drones",
-    description: "Tecnologia, precisão e responsabilidade para operações agrícolas com drones.",
-    images: ["/media/social/og-gg-drones.png"],
+    title: "Pulverização Agrícola com Drones no Paraná | GG Pulverização",
+    description: "Pulverização agrícola, dispersão de sólidos e mapeamento com drones no Paraná. Mais precisão, agilidade e segurança para lavouras e pastagens.",
+    images: ["/media/social/og-gg-pulverizacao-v2.png"],
   },
   robots: { index: true, follow: true },
 };
