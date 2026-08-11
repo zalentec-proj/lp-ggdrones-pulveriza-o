@@ -10,6 +10,7 @@ import {
   ClipboardCheck,
   CloudRain,
   Gauge,
+  Gift,
   Menu,
   MessageCircle,
   MoveRight,
@@ -20,7 +21,7 @@ import {
   X,
 } from "lucide-react";
 
-const whatsappMessage = "Olá! Vi a página do Curso de Piloto de Drone Agrícola da GG Drones e gostaria de receber mais informações sobre a turma dos dias 18, 19 e 20 de setembro em Londrina.";
+const whatsappMessage = "Olá! Vi a página do Curso de Piloto de Drone Agrícola da GG Drones e gostaria de receber mais informações sobre a turma dos dias 18, 19 e 20 de setembro em Londrina, incluindo o CAAR incluso como brinde.";
 const courseWhatsAppUrl = `https://wa.me/5545991015512?text=${encodeURIComponent(whatsappMessage)}`;
 
 const courseNav = [
@@ -201,6 +202,7 @@ export function CourseLandingPage() {
           <motion.div className="course-hero__content" {...entrance(reducedMotion, 0.06)}>
             <span className="eyebrow">FORMAÇÃO PROFISSIONAL • LONDRINA</span>
             <p className="course-hero__date">18, 19 e 20 de setembro • 2026</p>
+            <p className="course-hero__bonus"><Gift size={15} aria-hidden="true" /><span><b>CAAR incluso como brinde</b> • Curso para Aplicação Aeroagrícola Remota</span></p>
             <h1>Curso de Piloto de <em>Drone Agrícola</em> em Londrina</h1>
             <p className="course-hero__statement">Pilotar não é operar.</p>
             <p className="course-hero__intro">Prepare-se para compreender uma operação agrícola de forma completa, unindo conhecimento técnico, planejamento, segurança, simuladores e experiência prática em campo.</p>
@@ -338,6 +340,10 @@ export function CourseLandingPage() {
               <span className="eyebrow">PRIMEIRA TURMA</span>
               <h2><b>18, 19 E 20</b><em>SETEMBRO</em><small>2026</small></h2>
               <div className="course-class__info"><strong>Londrina • Paraná</strong><p>Para informações sobre investimento, condições, estrutura do curso e demais dúvidas, fale diretamente com nossa equipe.</p></div>
+              <div className="course-caar-bonus">
+                <span className="course-caar-bonus__icon"><Gift size={23} aria-hidden="true" /></span>
+                <div><small>BÔNUS ESPECIAL</small><strong>CAAR incluso como brinde</strong><p>Curso para Aplicação Aeroagrícola Remota para complementar sua preparação.</p></div>
+              </div>
               <CourseCta label="FALAR COM A GG DRONES" className="course-class__cta" />
             </div>
           </motion.div>
