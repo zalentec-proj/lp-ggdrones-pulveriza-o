@@ -5,7 +5,7 @@ const siteUrl = "https://www.ggdronespulverizacao.com.br";
 const coursePath = "/curso-drone-agricola";
 const courseTitle = "Curso de Piloto de Drone Agrícola em Londrina | GG Drones";
 const courseDescription = "Formação profissional de pilotos de drones agrícolas com teoria, simuladores e prática em campo. Turma em 18, 19 e 20 de setembro de 2026, em Londrina — PR.";
-const socialImage = "/media/social/curso-drone-agricola.png";
+const socialImage = "/media/social/curso-drone-agricola-v2.png";
 
 export const metadata: Metadata = {
   title: courseTitle,
