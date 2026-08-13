@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 
 const whatsappMessage = "Olá! Vi a página do Curso de Piloto de Drone Agrícola da GG Drones e gostaria de receber mais informações sobre a turma dos dias 18, 19 e 20 de setembro em Londrina, incluindo o CAAR incluso como brinde.";
-const courseWhatsAppUrl = `https://wa.me/5545991015512?text=${encodeURIComponent(whatsappMessage)}`;
+const courseWhatsAppUrl = `https://wa.me/5543996674228?text=${encodeURIComponent(whatsappMessage)}`;
 
 const courseNav = [
   ["Formação", "#formacao"],
@@ -173,7 +173,7 @@ function CourseFooter() {
         <div>
           <h3>ATENDIMENTO</h3>
           <span className="footer__whatsapp-label">WhatsApp</span>
-          <a className="footer__phone" href={courseWhatsAppUrl} target="_blank" rel="noreferrer">(45) 99101-5512</a>
+          <a className="footer__phone" href={courseWhatsAppUrl} target="_blank" rel="noreferrer">(43) 99667-4228</a>
           <a className="footer__cta" href={courseWhatsAppUrl} target="_blank" rel="noreferrer">QUERO MAIS INFORMAÇÕES</a>
         </div>
       </div>
@@ -337,7 +337,6 @@ export function CourseLandingPage() {
           <motion.div className="course-class__card" {...entrance(reducedMotion)}>
             <div className="course-class__background" aria-hidden="true"><Image src="/media/curso/pilotos-em-campo.jpeg" alt="" fill sizes="100vw" /></div>
             <div className="course-class__content">
-              <span className="eyebrow">PRIMEIRA TURMA</span>
               <h2><b>18, 19 E 20</b><em>SETEMBRO</em><small>2026</small></h2>
               <div className="course-class__info"><strong>Londrina • Paraná</strong><p>Para informações sobre investimento, condições, estrutura do curso e demais dúvidas, fale diretamente com nossa equipe.</p></div>
               <div className="course-caar-bonus">

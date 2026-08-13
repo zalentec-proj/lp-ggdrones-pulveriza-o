@@ -30,7 +30,7 @@ export const steps = [
 
 export const aircraft = [
   ["FALCÃO I", "DJI Air 2S", "Mapeamento e planejamento", "Coleta imagens da área, identifica limites e apoia o planejamento seguro da operação.", "MAPEAMENTO AÉREO", "/media/fleet/air-2s.webp"],
-  ["ÁGUIA I", "DJI Agras T10", "Áreas pequenas e complexas", "Agilidade para bordas de mata, terrenos com obstáculos e locais de acesso mais difícil.", "ATÉ 6,07 HA/H", "/media/fleet/agras-t10-card.png"],
+  ["ÁGUIA I", "DJI Agras T10", "Áreas pequenas e complexas", "Agilidade para bordas de mata, terrenos com obstáculos e locais de acesso mais difícil.", "ATÉ 6,07 HA/H", "/media/fleet/agras-t10-card-v2.png"],
   ["ÁGUIA II", "DJI Agras T20P", "Operações versáteis", "Equilíbrio entre capacidade e agilidade para aplicações em diferentes tipos de área.", "ATÉ 12 HA/H", "/media/fleet/agras-t20p.webp"],
   ["HARPIA", "DJI Agras T40", "Alta produtividade", "Maior capacidade operacional para pulverização de áreas extensas com eficiência.", "ATÉ 21,33 HA/H", "/media/fleet/agras-t40.webp"],
 ] as const;

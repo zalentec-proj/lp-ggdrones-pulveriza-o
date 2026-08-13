@@ -18,6 +18,7 @@
 | `gallery/*.webp` | Arquivos enviados pelo cliente em 01/08/2026 | Galeria | Registros reais de campo e operação usados diretamente. |
 | `fleet/air-2s.webp` | Arquivo enviado pelo cliente em 01/08/2026 | Card do DJI Air 2S | Recorte de produto com fundo transparente. |
 | `fleet/agras-t10-card.png` | Gerado por GPT Image em 01/08/2026 | Card do DJI Agras T10 | Imagem de produto criada a partir do recorte de referência enviado; sem marcas ou textos. |
+| `fleet/agras-t10-card-v2.png` | Gerado por GPT Image em 13/08/2026 | Card do DJI Agras T10 | Composição refeita usando como referência a imagem frontal do drone enviada pelo cliente; sem textos ou marcas. |
 | `fleet/agras-t20p.webp` | Arquivo enviado pelo cliente em 01/08/2026 | Card do DJI Agras T20P | Recorte de produto com fundo transparente. |
 | `fleet/agras-t40.webp` | Arquivo enviado pelo cliente em 01/08/2026 | Card do DJI Agras T40 | Recorte de produto com fundo transparente. |
 
